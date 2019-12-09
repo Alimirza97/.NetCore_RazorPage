@@ -1,0 +1,7 @@
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\bin\Debug\netcoreapp3.0\YasayanKutuphane.Models.deps.json
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\bin\Debug\netcoreapp3.0\YasayanKutuphane.Models.dll
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\obj\Debug\netcoreapp3.0\YasayanKutuphane.Models.csprojAssemblyReference.cache
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\obj\Debug\netcoreapp3.0\YasayanKutuphane.Models.AssemblyInfoInputs.cache
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\obj\Debug\netcoreapp3.0\YasayanKutuphane.Models.AssemblyInfo.cs
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\bin\Debug\netcoreapp3.0\YasayanKutuphane.Models.runtimeconfig.json
+C:\Users\Elimirze\Desktop\WebUygulamalar\YasayanKutuphane\YasayanKutuphane.Models\bin\Debug\netcoreapp3.0\YasayanKutuphane.Models.runtimeconfig.dev.json
