@@ -5711,11 +5711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elimirze\\Desktop\\WebUygulamalar\\YasayanKutuphane\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Elimirze\\Desktop\\Yasayan_Kutuphane\\YasayanKutuphane\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj",
       "projectName": "YasayanKutuphane.Models",
-      "projectPath": "C:\\Users\\Elimirze\\Desktop\\WebUygulamalar\\YasayanKutuphane\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj",
+      "projectPath": "C:\\Users\\Elimirze\\Desktop\\Yasayan_Kutuphane\\YasayanKutuphane\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj",
       "packagesPath": "C:\\Users\\Elimirze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elimirze\\Desktop\\WebUygulamalar\\YasayanKutuphane\\YasayanKutuphane.Models\\obj\\",
+      "outputPath": "C:\\Users\\Elimirze\\Desktop\\Yasayan_Kutuphane\\YasayanKutuphane\\YasayanKutuphane.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5784,6 +5784,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5792,7 +5806,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
