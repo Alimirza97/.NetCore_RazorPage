@@ -6,7 +6,7 @@ using System.Text;
 
 namespace YasayanKutuphane.Models
 {
-    class Yazar
+    class Cevirmen
     {
         [Key]
         public int ID { get; set; }
@@ -16,12 +16,12 @@ namespace YasayanKutuphane.Models
 
         public string Isim { get; set; }
         public string Soyisim { get; set; }
+
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DogumTarihi { get; set; }
         public CinsiyyetTipi Cinsiyet { get; set; }
-        public string Hayati { get; set; }
-        public virtual ICollection<KitapYazar> KitapYazar { get; set; }
+        public virtual ICollection<KitapCevirmen> KitapCevirmen { get; set; }
         public string TamIsim
         {
             get
@@ -31,6 +31,7 @@ namespace YasayanKutuphane.Models
 
 
         }
+
     }
     public enum CinsiyyetTipi
     {

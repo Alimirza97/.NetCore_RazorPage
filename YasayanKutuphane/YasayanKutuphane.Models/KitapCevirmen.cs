@@ -6,14 +6,17 @@ using System.Text;
 
 namespace YasayanKutuphane.Models
 {
-    class Yorum
+    class KitapCevirmen
     {
         [Key]
-        public int KitapID { get; set; }
-        [ForeignKey ("KitapID")]
-        public virtual Kitap Kitap { get; set; }
-        public DateTime YorumTarihi { get; set; }
-
         public int ID { get; set; }
+
+        public int CevirmenID { get; set; }
+        [ForeignKey("CevirmenID")]
+        public virtual Cevirmen Cevirmen { get; set; }
+        public int DisplayOrder { get; set; }
+        public int KitapID { get; set; }
+        [ForeignKey("KitapID")]
+        public virtual Kitap Kitap { get; set; }
     }
 }

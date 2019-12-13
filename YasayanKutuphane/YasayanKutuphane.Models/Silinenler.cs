@@ -5,16 +5,12 @@ using System.Text;
 
 namespace YasayanKutuphane.Models
 {
-    class Dil
+    class Silinenler
     {
         [Key]
         public int ID { get; set; }
-        [Required]
-        [Display (Name ="DilAdi")]
-        public string Name { get; set; }
-        [Required]
-        [Display (Name="DisplayOrder")]
-        public int DisplayOrder { get; set; }
+
+
 
     }
 }
