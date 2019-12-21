@@ -1,0 +1,5 @@
+C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Data\bin\Debug\netcoreapp3.1\yasayanKutuphane.Data.deps.json
+C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Data\bin\Debug\netcoreapp3.1\yasayanKutuphane.Data.dll
+C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\yasayanKutuphane.Data.csprojAssemblyReference.cache
+C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\yasayanKutuphane.Data.AssemblyInfoInputs.cache
+C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\yasayanKutuphane.Data.AssemblyInfo.cs
