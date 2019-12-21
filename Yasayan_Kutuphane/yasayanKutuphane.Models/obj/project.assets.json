@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aldin\\source\\repos\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
+      "projectUniqueName": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
       "projectName": "Yasayan_Kutuphane.Models",
-      "projectPath": "C:\\Users\\aldin\\source\\repos\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
+      "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
       "packagesPath": "C:\\Users\\aldin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aldin\\source\\repos\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\obj\\",
+      "outputPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -6,3 +6,11 @@ C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\
 C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.AssemblyInfo.cs
 C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.dll
 C:\Users\aldin\source\repos\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.pdb
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\bin\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.deps.json
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\bin\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.dll
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\bin\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.pdb
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.csprojAssemblyReference.cache
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.AssemblyInfoInputs.cache
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.AssemblyInfo.cs
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.dll
+C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Models\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Models.pdb
