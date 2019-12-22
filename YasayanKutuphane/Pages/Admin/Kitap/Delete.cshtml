@@ -1,0 +1,89 @@
+﻿@page
+@model YasayanKutuphane.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Kitap</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Kategori)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Kategori.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Dil)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Dil.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Yayinevi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Yayinevi.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.KapakTipi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.KapakTipi.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.KitapTuru)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.KitapTuru.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Tanitim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Tanitim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.KapakFotografi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.KapakFotografi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.BasimTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.BasimTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.SayfaSayisi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.SayfaSayisi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Kitap.Puan)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Kitap.Puan)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Kitap.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

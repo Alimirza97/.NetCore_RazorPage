@@ -1,0 +1,11 @@
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\bin\Debug\netcoreapp3.1\YasayanKutuphane.Data.deps.json
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\bin\Debug\netcoreapp3.1\YasayanKutuphane.Data.dll
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\bin\Debug\netcoreapp3.1\YasayanKutuphane.Data.pdb
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.AssemblyInfoInputs.cache
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.AssemblyInfo.cs
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.dll
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.pdb
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.csprojAssemblyReference.cache
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.dll
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.pdb
+C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Data\obj\Debug\netcoreapp3.1\YasayanKutuphane.Data.csproj.CopyComplete
