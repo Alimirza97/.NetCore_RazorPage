@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj": {}
+    "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj": {
+    "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj",
         "projectName": "Yasayan_Kutuphane.Data",
-        "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj",
-        "packagesPath": "C:\\Users\\aldin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\obj\\",
+        "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj",
+        "packagesPath": "C:\\Users\\Elimirze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elimirze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {
-                "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj"
+              "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {
+                "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj"
               }
             }
           }
@@ -77,20 +77,20 @@
         }
       }
     },
-    "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj": {
+    "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj",
+        "projectUniqueName": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj",
         "projectName": "Yasayan_Kutuphane",
-        "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj",
-        "packagesPath": "C:\\Users\\aldin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\obj\\",
+        "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\Yasayan_Kutuphane.csproj",
+        "packagesPath": "C:\\Users\\Elimirze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elimirze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +103,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj": {
-                "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj"
+              "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj": {
+                "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Data\\Yasayan_Kutuphane.Data.csproj"
               }
             }
           }

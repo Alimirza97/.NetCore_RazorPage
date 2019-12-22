@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {}
+    "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {
+    "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
         "projectName": "Yasayan_Kutuphane.Models",
-        "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
-        "packagesPath": "C:\\Users\\aldin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\obj\\",
+        "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\Yasayan_Kutuphane.Models.csproj",
+        "packagesPath": "C:\\Users\\Elimirze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\yasayanKutuphane.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elimirze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -132,3 +132,5 @@ C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yas
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yasayan_Kutuphane\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.csproj.CopyComplete
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yasayan_Kutuphane\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.dll
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yasayan_Kutuphane\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.pdb
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yasayan_Kutuphane\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.dll
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\Yasayan_Kutuphane\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.pdb

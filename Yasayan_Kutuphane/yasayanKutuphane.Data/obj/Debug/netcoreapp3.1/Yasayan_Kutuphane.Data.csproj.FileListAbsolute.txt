@@ -14,3 +14,5 @@ C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yas
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Data.AssemblyInfo.cs
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Data.dll
 C:\Users\aldin\OneDrive\Belgeler\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Data.pdb
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Data.dll
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\Yasayan_Kutuphane\yasayanKutuphane.Data\obj\Debug\netcoreapp3.1\Yasayan_Kutuphane.Data.pdb
