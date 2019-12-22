@@ -1,7 +1,0 @@
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.deps.json
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.dll
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.pdb
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\obj\Debug\netcoreapp3.1\YasayanKutuphane.Models.AssemblyInfoInputs.cache
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\obj\Debug\netcoreapp3.1\YasayanKutuphane.Models.AssemblyInfo.cs
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\obj\Debug\netcoreapp3.1\YasayanKutuphane.Models.dll
-C:\Users\Elimirze\Desktop\YeniWebProje\YasayanKutuphane.Models\obj\Debug\netcoreapp3.1\YasayanKutuphane.Models.pdb
