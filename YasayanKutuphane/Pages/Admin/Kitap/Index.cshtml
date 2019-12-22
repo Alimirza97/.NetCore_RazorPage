@@ -1,0 +1,97 @@
+﻿@page
+@model YasayanKutuphane.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Kategori)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Dil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Yayinevi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].KapakTipi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].KitapTuru)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Isim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Tanitim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].KapakFotografi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].BasimTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].SayfaSayisi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Kitap[0].Puan)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Kitap) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kategori.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dil.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yayinevi.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KapakTipi.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KitapTuru.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Isim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tanitim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KapakFotografi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BasimTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SayfaSayisi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Puan)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,80 @@
+﻿@page
+@model YasayanKutuphane.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Kitap</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Kitap.KategoriID" class="control-label"></label>
+                <select asp-for="Kitap.KategoriID" class ="form-control" asp-items="ViewBag.KategoriID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.DilID" class="control-label"></label>
+                <select asp-for="Kitap.DilID" class ="form-control" asp-items="ViewBag.DilID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.YayineviID" class="control-label"></label>
+                <select asp-for="Kitap.YayineviID" class ="form-control" asp-items="ViewBag.YayineviID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.KapakTipiID" class="control-label"></label>
+                <select asp-for="Kitap.KapakTipiID" class ="form-control" asp-items="ViewBag.KapakTipiID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.KitapTuruID" class="control-label"></label>
+                <select asp-for="Kitap.KitapTuruID" class ="form-control" asp-items="ViewBag.KitapTuruID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.Isim" class="control-label"></label>
+                <input asp-for="Kitap.Isim" class="form-control" />
+                <span asp-validation-for="Kitap.Isim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.Tanitim" class="control-label"></label>
+                <input asp-for="Kitap.Tanitim" class="form-control" />
+                <span asp-validation-for="Kitap.Tanitim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.KapakFotografi" class="control-label"></label>
+                <input asp-for="Kitap.KapakFotografi" class="form-control" />
+                <span asp-validation-for="Kitap.KapakFotografi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.BasimTarihi" class="control-label"></label>
+                <input asp-for="Kitap.BasimTarihi" class="form-control" />
+                <span asp-validation-for="Kitap.BasimTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.SayfaSayisi" class="control-label"></label>
+                <input asp-for="Kitap.SayfaSayisi" class="form-control" />
+                <span asp-validation-for="Kitap.SayfaSayisi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kitap.Puan" class="control-label"></label>
+                <input asp-for="Kitap.Puan" class="form-control" />
+                <span asp-validation-for="Kitap.Puan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
