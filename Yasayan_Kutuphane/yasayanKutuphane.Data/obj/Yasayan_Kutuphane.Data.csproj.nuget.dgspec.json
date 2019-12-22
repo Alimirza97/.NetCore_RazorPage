@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj": {
+                "projectPath": "C:\\Users\\aldin\\OneDrive\\Belgeler\\GitHub\\.NetCore_RazorPage\\Yasayan_Kutuphane\\Yasayan_Kutuphane.Models\\Yasayan_Kutuphane.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -51,7 +55,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

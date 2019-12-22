@@ -11,7 +11,7 @@ namespace yasayanKutuphane.Models
         public int ID { get; set; }
         [Required]
         [Display(Name = "Dil Adi")]
-        public string Name { get; set; }
+        public string Isim { get; set; }
         [Required]
         [Display(Name = "Display Order")]
         public int DisplayOrder { get; set; }

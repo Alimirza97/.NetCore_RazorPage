@@ -20,22 +20,22 @@ namespace yasayanKutuphane.Models
         public int YayineviID { get; set; }
         [ForeignKey("YayineviID")]
         public virtual Yayinevi Yayinevi { get; set; }
+        public int KapakTipiID { get; set; }
+        [ForeignKey("KapakTipiID")]
+        public virtual KapakTipi KapakTipi { get; set; }
+        public int KitapTuruID { get; set; }
+        [ForeignKey("KitapTuruID")]
+        public virtual KitapTuru KitapTuru { get; set; }
 
         public string Isim { get; set; }
         public string Tanitim { get; set; }
         public string KapakFotografi { get; set; }
         public DateTime BasimTarihi { get; set; }
         public int SayfaSayisi { get; set; }
-
-        public int StokMiktari { get; set; }
         public double Puan { get; set; }
         public virtual ICollection<KitapYazar> KitapYazar { get; set; }
         public virtual ICollection<KitapCevirmen> KitapCevirmen { get; set; }
 
-        //public bool SilinmeliMi()
-        //{
-        //    if (StokMiktari == 0) return true;
-        //    else return false;
-        //}
+        
     }
 }

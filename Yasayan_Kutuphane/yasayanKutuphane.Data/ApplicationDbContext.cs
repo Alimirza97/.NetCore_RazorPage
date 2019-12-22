@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Yasayan_Kutuphane.Models;
 
 namespace Yasayan_Kutuphane.Data
 {
@@ -13,5 +14,6 @@ namespace Yasayan_Kutuphane.Data
         {
         }
 
+        public DbSet <Kitap> Kitap { get; set; }
     }
 }
