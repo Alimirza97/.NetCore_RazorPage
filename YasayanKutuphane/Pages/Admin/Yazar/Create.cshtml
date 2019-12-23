@@ -1,0 +1,59 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Yazar.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Yazar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Yazar.UlkeID" class="control-label"></label>
+                <select asp-for="Yazar.UlkeID" class ="form-control" asp-items="ViewBag.UlkeID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazar.Isim" class="control-label"></label>
+                <input asp-for="Yazar.Isim" class="form-control" />
+                <span asp-validation-for="Yazar.Isim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazar.Soyisim" class="control-label"></label>
+                <input asp-for="Yazar.Soyisim" class="form-control" />
+                <span asp-validation-for="Yazar.Soyisim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazar.DogumTarihi" class="control-label"></label>
+                <input asp-for="Yazar.DogumTarihi" class="form-control" />
+                <span asp-validation-for="Yazar.DogumTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazar.Cinsiyet" class="control-label"></label>
+                <select asp-for="Yazar.Cinsiyet" class="form-control"></select>
+                <span asp-validation-for="Yazar.Cinsiyet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Yazar.Hayati" class="control-label"></label>
+                <input asp-for="Yazar.Hayati" class="form-control" />
+                <span asp-validation-for="Yazar.Hayati" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

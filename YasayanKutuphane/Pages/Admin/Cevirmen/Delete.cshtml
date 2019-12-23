@@ -1,0 +1,53 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Cevirmen.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Cevirmen</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Ulke)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Ulke.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Soyisim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Soyisim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.DogumTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.DogumTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Cinsiyet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Cinsiyet)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Cevirmen.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

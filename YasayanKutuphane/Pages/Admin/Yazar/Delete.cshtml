@@ -1,0 +1,59 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Yazar.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Yazar</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Ulke)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Ulke.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Soyisim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Soyisim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.DogumTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.DogumTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Cinsiyet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Cinsiyet)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Hayati)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Hayati)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Yazar.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

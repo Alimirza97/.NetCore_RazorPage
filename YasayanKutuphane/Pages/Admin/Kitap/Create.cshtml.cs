@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using YasayanKutuphane.Data;
 using YasayanKutuphane.Models;
 
-namespace YasayanKutuphane
+namespace YasayanKutuphane.Pages.Admin.Kitap
 {
     public class CreateModel : PageModel
     {
@@ -30,7 +30,7 @@ namespace YasayanKutuphane
         }
 
         [BindProperty]
-        public Kitap Kitap { get; set; }
+        public YasayanKutuphane.Models.Kitap Kitap { get; set; }
 
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.

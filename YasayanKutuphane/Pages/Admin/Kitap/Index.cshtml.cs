@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using YasayanKutuphane.Data;
 using YasayanKutuphane.Models;
 
-namespace YasayanKutuphane
+namespace YasayanKutuphane.Pages.Admin.Kitap
 {
     public class IndexModel : PageModel
     {
@@ -19,7 +19,7 @@ namespace YasayanKutuphane
             _context = context;
         }
 
-        public IList<Kitap> Kitap { get;set; }
+        public IList<YasayanKutuphane.Models.Kitap> Kitap { get;set; }
 
         public async Task OnGetAsync()
         {

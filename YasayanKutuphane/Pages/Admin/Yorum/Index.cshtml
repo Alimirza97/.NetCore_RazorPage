@@ -1,0 +1,49 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Yorum.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Yorum[0].Kitap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yorum[0].YorumTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yorum[0].Icerik)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Yorum) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kitap.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YorumTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Icerik)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

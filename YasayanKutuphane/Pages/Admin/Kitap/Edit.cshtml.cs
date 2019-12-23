@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using YasayanKutuphane.Data;
 using YasayanKutuphane.Models;
 
-namespace YasayanKutuphane
+namespace YasayanKutuphane.Pages.Admin.Kitap
 {
     public class EditModel : PageModel
     {
@@ -21,7 +21,7 @@ namespace YasayanKutuphane
         }
 
         [BindProperty]
-        public Kitap Kitap { get; set; }
+        public YasayanKutuphane.Models.Kitap Kitap { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

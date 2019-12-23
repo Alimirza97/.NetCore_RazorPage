@@ -8990,11 +8990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane\\YasayanKutuphane.csproj",
+      "projectUniqueName": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane\\YasayanKutuphane.csproj",
       "projectName": "YasayanKutuphane",
-      "projectPath": "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane\\YasayanKutuphane.csproj",
+      "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane\\YasayanKutuphane.csproj",
       "packagesPath": "C:\\Users\\Elimirze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane\\obj\\",
+      "outputPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9013,11 +9013,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane.Data\\YasayanKutuphane.Data.csproj": {
-              "projectPath": "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane.Data\\YasayanKutuphane.Data.csproj"
+            "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane.Data\\YasayanKutuphane.Data.csproj": {
+              "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane.Data\\YasayanKutuphane.Data.csproj"
             },
-            "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj": {
-              "projectPath": "C:\\Users\\Elimirze\\Desktop\\YeniWebProje\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj"
+            "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj": {
+              "projectPath": "C:\\Users\\Elimirze\\Documents\\GitHub\\.NetCore_RazorPage\\YasayanKutuphane.Models\\YasayanKutuphane.Models.csproj"
             }
           }
         }

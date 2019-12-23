@@ -1,0 +1,56 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Yazar.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Yazar</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Ulke)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Ulke.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Soyisim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Soyisim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.DogumTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.DogumTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Cinsiyet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Cinsiyet)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Yazar.Hayati)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Yazar.Hayati)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Yazar.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,50 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.Cevirmen.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Cevirmen</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Ulke)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Ulke.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Soyisim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Soyisim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.DogumTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.DogumTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cevirmen.Cinsiyet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cevirmen.Cinsiyet)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Cevirmen.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
