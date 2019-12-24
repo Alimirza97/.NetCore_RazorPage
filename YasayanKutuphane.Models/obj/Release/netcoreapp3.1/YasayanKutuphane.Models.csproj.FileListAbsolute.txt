@@ -1,0 +1,8 @@
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\bin\Release\netcoreapp3.1\YasayanKutuphane.Models.deps.json
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\bin\Release\netcoreapp3.1\YasayanKutuphane.Models.dll
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\bin\Release\netcoreapp3.1\YasayanKutuphane.Models.pdb
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\obj\Release\netcoreapp3.1\YasayanKutuphane.Models.csprojAssemblyReference.cache
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\obj\Release\netcoreapp3.1\YasayanKutuphane.Models.AssemblyInfoInputs.cache
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\obj\Release\netcoreapp3.1\YasayanKutuphane.Models.AssemblyInfo.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\obj\Release\netcoreapp3.1\YasayanKutuphane.Models.dll
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane.Models\obj\Release\netcoreapp3.1\YasayanKutuphane.Models.pdb

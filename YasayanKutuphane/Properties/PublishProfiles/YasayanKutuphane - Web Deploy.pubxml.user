@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPJznN8XPX0CET9NlsCEhDAAAAAACAAAAAAAQZgAAAAEAACAAAAAXbGC1fxLcE9TEp2Elhu97DzgwLHbnH8mOvGPQ5QVtggAAAAAOgAAAAAIAACAAAACHDfpL5e2dbSjdYl2M4g7ao9GNO4ZJt4NE8YjT043Cg4AAAADygiOCa7pqDZrhxC/qoV3PZ3rKdQg4sXflyHw+pkDaJdGadwsX0DymFLygN2qge/g0nh4ilDqR+b2e+GErDQMGR0YSBJJbUgwn2vydnoo74CCo6ViJuVzdW+hHYg1JP2Gw+yi91Zv2YJ89/j4Vb3m8i0GCVsP2MTtoWc9gdSYZGUAAAAD+aYkjJOSbz+a9mxQ8eWAhJN92AFh8WLvygVWLRlTLxHTxlTcs1ve1B4kqRo1v+QcnFf1PbhMiOjnwBYgmKWEv</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=ELIMIRZE\SQLEXPRESS%3bDatabase=YasayanKutuphane%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
