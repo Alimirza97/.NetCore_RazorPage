@@ -1,0 +1,38 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.KitapTuru.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Ayrıntılar</h1>
+
+<div>
+    <h4>KitapTuru</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KitapTuru.Isim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KitapTuru.Isim)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KitapTuru.DisplayOrder)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KitapTuru.DisplayOrder)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.KitapTuru.ID" class="btn btn-info">
+        <i class="fas fa-edit"></i> &nbsp;
+        Güncelle
+    </a><br /><br />
+    <a asp-page="./Index" class="btn btn-dark">
+        <i class="fas fa-home"></i> &nbsp;
+        Geri Dön &nbsp;
+    </a><br />
+</div>

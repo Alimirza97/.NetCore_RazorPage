@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using YasayanKutuphane.Data;
 using YasayanKutuphane.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+
 
 namespace YasayanKutuphane.Pages.Admin.Kitap
 {
     public class CreateModel : PageModel
     {
         private readonly YasayanKutuphane.Data.ApplicationDbContext _context;
-
-        public CreateModel(YasayanKutuphane.Data.ApplicationDbContext context)
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        public CreateModel(YasayanKutuphane.Data.ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
         {
             _context = context;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult OnGet()
@@ -36,14 +40,26 @@ namespace YasayanKutuphane.Pages.Admin.Kitap
         // more details see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            string webRootPath = _hostingEnvironment.WebRootPath;
+            var files = HttpContext.Request.Form.Files;
+
             if (!ModelState.IsValid)
             {
                 return Page();
             }
+            string fileName = Guid.NewGuid().ToString();
+            var uploads = Path.Combine(webRootPath, @"img\Kitap");
+            var extension = Path.GetExtension(files[0].FileName);
+
+            using (var fileStream = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+            {
+                files[0].CopyTo(fileStream);
+            }
+            Kitap.KapakFotografi = @"\img\Kitap\" + fileName + extension;
 
             _context.Kitap.Add(Kitap);
-            await _context.SaveChangesAsync();
 
+            await _context.SaveChangesAsync();
             return RedirectToPage("./Index");
         }
     }

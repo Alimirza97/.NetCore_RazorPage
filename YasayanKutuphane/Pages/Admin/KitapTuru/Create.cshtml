@@ -1,0 +1,43 @@
+﻿@page
+@model YasayanKutuphane.Pages.Admin.KitapTuru.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Oluştur</h1>
+
+<h4>KitapTuru</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="KitapTuru.Isim" class="control-label"></label>
+                <input asp-for="KitapTuru.Isim" class="form-control" />
+                <span asp-validation-for="KitapTuru.Isim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KitapTuru.DisplayOrder" class="control-label"></label>
+                <input asp-for="KitapTuru.DisplayOrder" class="form-control" />
+                <span asp-validation-for="KitapTuru.DisplayOrder" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index" class="btn btn-dark">
+        <i class="fas fa-home"></i> &nbsp;
+        Geri Dön
+    </a><br />
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

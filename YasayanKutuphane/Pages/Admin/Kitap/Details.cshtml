@@ -6,7 +6,7 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Ayrıntılar</h1>
 
 <div>
     <h4>Kitap</h4>
@@ -81,6 +81,12 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Kitap.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Edit" asp-route-id="@Model.Kitap.ID" class="btn btn-info">
+        <i class="fas fa-edit"></i> &nbsp;
+        Güncelle
+    </a><br /> <br />
+    <a asp-page="./Index" class="btn btn-dark">
+        <i class="fas fa-home"></i> &nbsp;
+        Geri Dön &nbsp;
+    </a><br />
 </div>

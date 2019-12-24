@@ -6,7 +6,7 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Oluştur</h1>
 
 <h4>Ulke</h4>
 <hr />
@@ -25,14 +25,17 @@
                 <span asp-validation-for="Ulke.DisplayOrder" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a asp-page="./Index" class="btn btn-dark">
+        <i class="fas fa-home"></i> &nbsp;
+        Geri Dön
+    </a><br />
 </div>
 
 @section Scripts {

@@ -6,6 +6,24 @@
     <title>@ViewData["Title"] - YasayanKutuphane</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template-->
+    <link href="~/css/clean-blog.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,33 +48,39 @@
                             <div class="dropdown-menu">
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Kitap/Index"> Kitap </a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Yazar/Index"> Yazar </a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/Cevirmen/Index"> Yazar </a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/Cevirmen/Index"> Cevirmen </a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Kategori/Index"> Kategori </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Dil/Index"> Dil </a>
                                 <a class="dropdown-item text-dark" asp-page="/Admin/Ulke/Index"> Ülke </a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/Yayinevi/Index"> Dil </a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/Yorum/Index"> Ülke </a>
-                                <a class="dropdown-item text-dark" asp-page="/Admin/KapakTipi/Index"> Ülke </a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/Yayinevi/Index"> Yayın Evi </a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/Yorum/Index"> Yorum </a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/KapakTipi/Index"> Kapak Tipi </a>
+                                <a class="dropdown-item text-dark" asp-page="/Admin/KitapTuru/Index"> Kitap Türü </a>
                             </div>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-page="/Customer/Contact/Index">Contact</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Customer/Home/Kitap">Kitaplar</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Customer/Home/EKitap">Elektronik Kitaplar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Customer/Iletisim/Index">İletişim</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" style="margin-bottom:200px">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer bg-secondary text-white" >
+        <div class="container" style="height:20px">
             &copy; 2019 - YasayanKutuphane - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
@@ -64,6 +88,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/159a34b587.js" crossorigin="anonymous"></script>
 
     @RenderSection("Scripts", required: false)
 </body>

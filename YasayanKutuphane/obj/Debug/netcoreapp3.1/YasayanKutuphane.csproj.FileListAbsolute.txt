@@ -370,3 +370,13 @@ C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\bin\Debug
 C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\bin\Debug\netcoreapp3.1\YasayanKutuphane.Models.pdb
 C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\YasayanKutuphane.Views.pdb
 C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\YasayanKutuphane.csproj.CopyComplete
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\Index.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Iletisim\Index.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\About\Index.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\KitapTuru\Create.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\KitapTuru\Delete.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\KitapTuru\Details.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\KitapTuru\Edit.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\KitapTuru\Index.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\Kitap.cshtml.g.cs
+C:\Users\Elimirze\Documents\GitHub\.NetCore_RazorPage\YasayanKutuphane\obj\Debug\netcoreapp3.1\Razor\Pages\Customer\Home\EKitap.cshtml.g.cs

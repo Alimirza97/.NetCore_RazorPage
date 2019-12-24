@@ -6,12 +6,23 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Başlangıç</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-primary">Kapak Tipleri</h2>
+
+    </div>
+    <div class="col-6 text-right">
+        <a asp-page="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> &nbsp;
+            Yeni Oluştur
+        </a>
+        <br /> <br />
+    </div>
+
+</div>
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>
@@ -33,9 +44,18 @@
                 @Html.DisplayFor(modelItem => item.DisplayOrder)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-info">
+                    <i class="fas fa-edit"></i> &nbsp;
+                    Güncelle
+                </a><br />
+                <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-warning">
+                    <i class="fas fa-info-circle"></i> &nbsp;
+                    Ayrıntılar
+                </a>
+                <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-danger">
+                    <i class="fas fa-trash-alt"></i> &nbsp;
+                    Sil &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                </a>
             </td>
         </tr>
 }

@@ -6,13 +6,13 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<h1>Güncelle</h1>
 
 <h4>Kitap</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Kitap.ID" />
             <div class="form-group">
@@ -52,7 +52,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Kitap.KapakFotografi" class="control-label"></label>
-                <input asp-for="Kitap.KapakFotografi" class="form-control" />
+                <input type="file" class="form-control" name="files" />
                 <span asp-validation-for="Kitap.KapakFotografi" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -71,14 +71,17 @@
                 <span asp-validation-for="Kitap.Puan" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="./Index">Back to List</a>
+    <a asp-page="./Index" class="btn btn-dark">
+        <i class="fas fa-home"></i> &nbsp;
+        Geri Dön
+    </a><br />
 </div>
 
 @section Scripts {

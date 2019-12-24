@@ -6,9 +6,9 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>Sil</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Bu Verileri Silmek İstediğine Emin Misin?</h3>
 <div>
     <h4>Kitap</h4>
     <hr />
@@ -83,7 +83,10 @@
     
     <form method="post">
         <input type="hidden" asp-for="Kitap.ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <input type="submit" value="Sil" class="btn btn-danger" /> |
+        <a asp-page="./Index" class="btn btn-dark">
+            <i class="fas fa-home"></i> &nbsp;
+            Geri Dön
+        </a><br />
     </form>
 </div>
